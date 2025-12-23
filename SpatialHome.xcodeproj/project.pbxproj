@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1A000000000000000000001 /* SpatialHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000001 /* SpatialHomeApp.swift */; };
+		F1A000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000002 /* ContentView.swift */; };
+		F1A000000000000000000003 /* HomeDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000003 /* HomeDevice.swift */; };
+		F1A000000000000000000004 /* HomeRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000004 /* HomeRoom.swift */; };
+		F1A000000000000000000005 /* SpatialAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000005 /* SpatialAnchor.swift */; };
+		F1A000000000000000000006 /* DevicePlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000006 /* DevicePlacement.swift */; };
+		F1A000000000000000000007 /* HomeKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000007 /* HomeKitService.swift */; };
+		F1A000000000000000000008 /* MockHomeKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000008 /* MockHomeKitService.swift */; };
+		F1A000000000000000000009 /* AnchorPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000009 /* AnchorPersistenceService.swift */; };
+		F1A000000000000000000010 /* MockAnchorPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000010 /* MockAnchorPersistenceService.swift */; };
+		F1A000000000000000000011 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000011 /* HomeViewModel.swift */; };
+		F1A000000000000000000012 /* SpatialPlacementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000012 /* SpatialPlacementViewModel.swift */; };
+		F1A000000000000000000013 /* DeviceControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000013 /* DeviceControlViewModel.swift */; };
+		F1A000000000000000000014 /* DeviceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000014 /* DeviceRowView.swift */; };
+		F1A000000000000000000015 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000015 /* DeviceListView.swift */; };
+		F1A000000000000000000016 /* DevicePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000016 /* DevicePanelView.swift */; };
+		F1A000000000000000000017 /* DeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000017 /* DeviceEntity.swift */; };
+		F1A000000000000000000018 /* SpatialDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000018 /* SpatialDeviceManager.swift */; };
+		F1A000000000000000000019 /* ImmersiveSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000019 /* ImmersiveSpaceView.swift */; };
+		F1A000000000000000000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000020 /* Assets.xcassets */; };
+		F1A000000000000000000021 /* HomeDeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000021 /* HomeDeviceTests.swift */; };
+		F1A000000000000000000022 /* HomeRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000022 /* HomeRoomTests.swift */; };
+		F1A000000000000000000023 /* DevicePlacementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000023 /* DevicePlacementTests.swift */; };
+		F1A000000000000000000024 /* HomeKitServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000024 /* HomeKitServiceTests.swift */; };
+		F1A000000000000000000025 /* AnchorPersistenceServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000025 /* AnchorPersistenceServiceTests.swift */; };
+		F1A000000000000000000026 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A000000000000000000026 /* ViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A000000000000000000001;
+			remoteInfo = SpatialHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2A000000000000000000001 /* SpatialHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialHomeApp.swift; sourceTree = "<group>"; };
+		F2A000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2A000000000000000000003 /* HomeDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDevice.swift; sourceTree = "<group>"; };
+		F2A000000000000000000004 /* HomeRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoom.swift; sourceTree = "<group>"; };
+		F2A000000000000000000005 /* SpatialAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAnchor.swift; sourceTree = "<group>"; };
+		F2A000000000000000000006 /* DevicePlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePlacement.swift; sourceTree = "<group>"; };
+		F2A000000000000000000007 /* HomeKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitService.swift; sourceTree = "<group>"; };
+		F2A000000000000000000008 /* MockHomeKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeKitService.swift; sourceTree = "<group>"; };
+		F2A000000000000000000009 /* AnchorPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPersistenceService.swift; sourceTree = "<group>"; };
+		F2A000000000000000000010 /* MockAnchorPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAnchorPersistenceService.swift; sourceTree = "<group>"; };
+		F2A000000000000000000011 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F2A000000000000000000012 /* SpatialPlacementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialPlacementViewModel.swift; sourceTree = "<group>"; };
+		F2A000000000000000000013 /* DeviceControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlViewModel.swift; sourceTree = "<group>"; };
+		F2A000000000000000000014 /* DeviceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRowView.swift; sourceTree = "<group>"; };
+		F2A000000000000000000015 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		F2A000000000000000000016 /* DevicePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePanelView.swift; sourceTree = "<group>"; };
+		F2A000000000000000000017 /* DeviceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEntity.swift; sourceTree = "<group>"; };
+		F2A000000000000000000018 /* SpatialDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialDeviceManager.swift; sourceTree = "<group>"; };
+		F2A000000000000000000019 /* ImmersiveSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveSpaceView.swift; sourceTree = "<group>"; };
+		F2A000000000000000000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2A000000000000000000021 /* HomeDeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDeviceTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000022 /* HomeRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoomTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000023 /* DevicePlacementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePlacementTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000024 /* HomeKitServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitServiceTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000025 /* AnchorPersistenceServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPersistenceServiceTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000026 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		F2A000000000000000000027 /* SpatialHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpatialHome.entitlements; sourceTree = "<group>"; };
+		F2A000000000000000000028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A000000000000000000001 /* SpatialHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A000000000000000000002 /* SpatialHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				F6A000000000000000000002 /* SpatialHome */,
+				F6A000000000000000000009 /* SpatialHomeTests */,
+				F6A000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000002 /* SpatialHome */ = {
+			isa = PBXGroup;
+			children = (
+				F6A000000000000000000004 /* App */,
+				F6A000000000000000000005 /* Models */,
+				F6A000000000000000000006 /* Views */,
+				F6A000000000000000000007 /* ViewModels */,
+				F6A000000000000000000008 /* Services */,
+				F6A000000000000000000010 /* Spatial */,
+				F2A000000000000000000020 /* Assets.xcassets */,
+				F2A000000000000000000027 /* SpatialHome.entitlements */,
+				F2A000000000000000000028 /* Info.plist */,
+			);
+			path = SpatialHome;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A000000000000000000001 /* SpatialHome.app */,
+				F4A000000000000000000002 /* SpatialHomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000001 /* SpatialHomeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000003 /* HomeDevice.swift */,
+				F2A000000000000000000004 /* HomeRoom.swift */,
+				F2A000000000000000000005 /* SpatialAnchor.swift */,
+				F2A000000000000000000006 /* DevicePlacement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000002 /* ContentView.swift */,
+				F2A000000000000000000014 /* DeviceRowView.swift */,
+				F2A000000000000000000015 /* DeviceListView.swift */,
+				F2A000000000000000000016 /* DevicePanelView.swift */,
+				F2A000000000000000000019 /* ImmersiveSpaceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000011 /* HomeViewModel.swift */,
+				F2A000000000000000000012 /* SpatialPlacementViewModel.swift */,
+				F2A000000000000000000013 /* DeviceControlViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000007 /* HomeKitService.swift */,
+				F2A000000000000000000008 /* MockHomeKitService.swift */,
+				F2A000000000000000000009 /* AnchorPersistenceService.swift */,
+				F2A000000000000000000010 /* MockAnchorPersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000009 /* SpatialHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000021 /* HomeDeviceTests.swift */,
+				F2A000000000000000000022 /* HomeRoomTests.swift */,
+				F2A000000000000000000023 /* DevicePlacementTests.swift */,
+				F2A000000000000000000024 /* HomeKitServiceTests.swift */,
+				F2A000000000000000000025 /* AnchorPersistenceServiceTests.swift */,
+				F2A000000000000000000026 /* ViewModelTests.swift */,
+			);
+			path = SpatialHomeTests;
+			sourceTree = "<group>";
+		};
+		F6A000000000000000000010 /* Spatial */ = {
+			isa = PBXGroup;
+			children = (
+				F2A000000000000000000017 /* DeviceEntity.swift */,
+				F2A000000000000000000018 /* SpatialDeviceManager.swift */,
+			);
+			path = Spatial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A000000000000000000003 /* SpatialHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A000000000000000000003;
+			buildPhases = (
+				F5A000000000000000000003 /* Sources */,
+				F5A000000000000000000001 /* Frameworks */,
+				F5A000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialHome;
+			productName = SpatialHome;
+			productReference = F4A000000000000000000001 /* SpatialHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4A000000000000000000004 /* SpatialHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A000000000000000000004;
+			buildPhases = (
+				F5A000000000000000000005 /* Sources */,
+				F5A000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = SpatialHomeTests;
+			productName = SpatialHomeTests;
+			productReference = F4A000000000000000000002 /* SpatialHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F4A000000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F4A000000000000000000004 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F4A000000000000000000003;
+					};
+				};
+			};
+			buildConfigurationList = F7A000000000000000000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A000000000000000000001;
+			productRefGroup = F6A000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A000000000000000000003 /* SpatialHome */,
+				F4A000000000000000000004 /* SpatialHomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000001 /* SpatialHomeApp.swift in Sources */,
+				F1A000000000000000000002 /* ContentView.swift in Sources */,
+				F1A000000000000000000003 /* HomeDevice.swift in Sources */,
+				F1A000000000000000000004 /* HomeRoom.swift in Sources */,
+				F1A000000000000000000005 /* SpatialAnchor.swift in Sources */,
+				F1A000000000000000000006 /* DevicePlacement.swift in Sources */,
+				F1A000000000000000000007 /* HomeKitService.swift in Sources */,
+				F1A000000000000000000008 /* MockHomeKitService.swift in Sources */,
+				F1A000000000000000000009 /* AnchorPersistenceService.swift in Sources */,
+				F1A000000000000000000010 /* MockAnchorPersistenceService.swift in Sources */,
+				F1A000000000000000000011 /* HomeViewModel.swift in Sources */,
+				F1A000000000000000000012 /* SpatialPlacementViewModel.swift in Sources */,
+				F1A000000000000000000013 /* DeviceControlViewModel.swift in Sources */,
+				F1A000000000000000000014 /* DeviceRowView.swift in Sources */,
+				F1A000000000000000000015 /* DeviceListView.swift in Sources */,
+				F1A000000000000000000016 /* DevicePanelView.swift in Sources */,
+				F1A000000000000000000017 /* DeviceEntity.swift in Sources */,
+				F1A000000000000000000018 /* SpatialDeviceManager.swift in Sources */,
+				F1A000000000000000000019 /* ImmersiveSpaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000021 /* HomeDeviceTests.swift in Sources */,
+				F1A000000000000000000022 /* HomeRoomTests.swift in Sources */,
+				F1A000000000000000000023 /* DevicePlacementTests.swift in Sources */,
+				F1A000000000000000000024 /* HomeKitServiceTests.swift in Sources */,
+				F1A000000000000000000025 /* AnchorPersistenceServiceTests.swift in Sources */,
+				F1A000000000000000000026 /* ViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A000000000000000000003 /* SpatialHome */;
+			targetProxy = F3A000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8A000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F8A000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		F8A000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialHome/SpatialHome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpatialHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpatialHome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerstman.SpatialHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		F8A000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialHome/SpatialHome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpatialHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpatialHome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerstman.SpatialHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		F8A000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerstman.SpatialHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialHome";
+			};
+			name = Debug;
+		};
+		F8A000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerstman.SpatialHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialHome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A000000000000000000001 /* Build configuration list for PBXProject "SpatialHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A000000000000000000001 /* Debug */,
+				F8A000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A000000000000000000003 /* Build configuration list for PBXNativeTarget "SpatialHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A000000000000000000003 /* Debug */,
+				F8A000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A000000000000000000004 /* Build configuration list for PBXNativeTarget "SpatialHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A000000000000000000005 /* Debug */,
+				F8A000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A000000000000000000001 /* Project object */;
+}
